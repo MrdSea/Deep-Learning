@@ -41,3 +41,15 @@
 # sudo apt install python3-pip
 # pip install tensorflow-gpu
 # pip install keras
+
+pip install requests
+pip install tabulate
+pip install scikit-learn
+pip install colorama
+pip install future 
+
+# The following command removes the H2O module for Python.
+pip uninstall h2o
+
+# Next, use pip to install this version of the H2O Python module.
+pip install http://h2o-release.s3.amazonaws.com/h2o/rel-weierstrass/7/Python/h2o-3.14.0.7-py2.py3-none-any.whl
